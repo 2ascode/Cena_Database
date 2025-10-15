@@ -3,6 +3,7 @@ services:
     name: cena-database
     env: docker
     plan: free
-    dockerfilePath: Dockerfile
+    dockerfilePath: Dockerfile.mysql
     rootDir: .
+
 
